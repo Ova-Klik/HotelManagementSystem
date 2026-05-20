@@ -11,7 +11,6 @@ public class Room {
     private BedType bedType;
     private ViewType viewType;
     private int MaxOccupancy;
-    private RatePlan ratePlan;
     private int guestId;
 
     public long getId() {
@@ -92,14 +91,6 @@ public class Room {
 
     public void setMaxOccupancy(int maxOccupancy) {
         MaxOccupancy = maxOccupancy;
-    }
-
-    public RatePlan getRatePlan() {
-        return ratePlan;
-    }
-
-    public void setRatePlan(RatePlan ratePlan) {
-        this.ratePlan = ratePlan;
     }
 
     public int getGuestId() {
